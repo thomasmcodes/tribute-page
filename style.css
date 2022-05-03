@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(black, yellow);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    border: solid 2px yellow;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px 20px;
+    margin-left: 35%;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    height: 300px;
+    width: 300px;
+}
+
+.biography {
+    text-align: left;
+    margin: 50px 30%;
+}
